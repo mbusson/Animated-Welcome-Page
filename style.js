@@ -15,7 +15,7 @@ $(document).ready(function(){
 			fa.from('#welcome', 1, {opacity:0, scale:0, top:0, ease: Back.easeInOut.config(2), y: 0});
 			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.035);
 			fa.to('#welcome, .tagline', 0.5, {opacity:0, delay: 1, onComplete:erase});
-			fa.from('#enter', 0.5, {opacity:0, rotation:720, delay: 1});
+			fa.from('#enter', 3, {opacity:0, ease: Power1.easeIn});
 	};
 
 	function erase() {
