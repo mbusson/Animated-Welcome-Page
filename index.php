@@ -45,7 +45,7 @@
 		<div class='tagline'>x</div>
 		<div class='tagline'>t</div>
 		<div class='tagline'>.</div><br>
-		<div id="enter">Enter</div>
+		<div id="enter"><a href='../index.php'>Enter</a></div>
 	</div>
 
 

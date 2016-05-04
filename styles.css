@@ -2,12 +2,16 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     overflow: hidden;
-    background: black;
+    background: #181B1D;
     color: white;
 }
 @font-face {
-    font-family: 'Cantarell';
-    src: url('fonts/Cantarell.ttf');
+    font-family: 'Dancing';
+    src: url('fonts/Dancing.otf');
+}
+@font-face {
+    font-family: 'LearningCurve';
+    src: url('fonts/LearningCurve.otf');
 }
 
 #animated {
@@ -22,18 +26,37 @@ body {
 #welcome {
     display:inline-block;
     margin-left:20px;
-    font-size:36px; 
+    font-size:72px; 
+    font-family: 'Dancing';
+}
+#welcome::first-letter { 
+    font-size: 110%;
+    color: #71ACD1;
 }
 .tagline {
     display:inline-block;
     font-size:36px;
+    font-family: 'LearningCurve';
+    color: #A5A5A5;
 }
 #enter {
-    display:inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     margin-left:20px;
-    font-size:36px; 
+    font-size:36px;
+    font-family: 'Dancing';
 }
-
+#enter a {
+    text-decoration: none;
+    color: white;
+}
+#enter a:hover {
+    text-decoration: none;
+    color: #C2C2C2;
+}
 
 
 

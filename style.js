@@ -13,9 +13,19 @@ $(document).ready(function(){
     	var fa = new TimelineLite();
 			fa.to('#animated', 0.5, {visibility:'visible'});
 			fa.from('#welcome', 1, {opacity:0, scale:0, top:0, ease: Back.easeInOut.config(2), y: 0});
-			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.05)
+			fa.staggerFrom('.tagline', 0.3, {rotation:90, scale:0, y:-60, ease:Back.easeOut}, 0.05);
+			fa.to('#welcome, .tagline', 0.5, {opacity:0, delay: 1, onComplete:erase});
+			fa.from('#enter', 0.3, {opacity:0, rotation:360, delay: 1});
 	};
 
+	function erase() {
+		$('#welcome').css({
+			visibility: 'hidden'
+		});
+		$('#animated .tagline').css({
+			visibility: 'hidden'
+		});
+	}
 	startFinalAnimation();
 
 });
