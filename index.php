@@ -20,31 +20,31 @@
 
 	<div id="animated">  
 		<div class="product" id="welcome">Welcome</div><br>
-		<div class='tagline'>T</div>
-		<div class='tagline'>h</div>
-		<div class='tagline'>i</div>
-		<div class='tagline'>s</div>
+		<div class='tagline'>T</div><!--
+		--><div class='tagline'>h</div><!--
+		--><div class='tagline'>i</div><!--
+		--><div class='tagline'>s</div>
 		<div class='tagline'> </div>
-		<div class='tagline'>i</div>
-		<div class='tagline'>s</div>
+		<div class='tagline'>i</div><!--
+		--><div class='tagline'>s</div>
 		<div class='tagline'> </div>
-		<div class='tagline'>a</div>
-		<div class='tagline'>n</div>
+		<div class='tagline'>a</div><!--
+		--><div class='tagline'>n</div>
 		<div class='tagline'> </div>
-		<div class='tagline'>a</div>
-		<div class='tagline'>n</div>
-		<div class='tagline'>i</div>
-		<div class='tagline'>m</div>
-		<div class='tagline'>a</div>
-		<div class='tagline'>t</div>
-		<div class='tagline'>e</div>
-		<div class='tagline'>d</div>
-		<div class='tagline'></div>
-		<div class='tagline'>t</div>
-		<div class='tagline'>e</div>
-		<div class='tagline'>x</div>
-		<div class='tagline'>t</div>
-		<div class='tagline'>.</div><br>
+		<div class='tagline'>a</div><!--
+		--><div class='tagline'>n</div><!--
+		--><div class='tagline'>i</div><!--
+		--><div class='tagline'>m</div><!--
+		--><div class='tagline'>a</div><!--
+		--><div class='tagline'>t</div><!--
+		--><div class='tagline'>e</div><!--
+		--><div class='tagline'>d</div>
+		<div class='tagline'> </div>
+		<div class='tagline'>t</div><!--
+		--><div class='tagline'>e</div><!--
+		--><div class='tagline'>x</div><!--
+		--><div class='tagline'>t</div><!--
+		--><div class='tagline'>.</div><br>
 		<div id="enter"><a href='../index.php'>Enter</a></div>
 	</div>
 
