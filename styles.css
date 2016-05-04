@@ -84,7 +84,7 @@ body {
     height: 150px;
     margin: -75px 0 0 -75px;
     border: 3px solid transparent;
-    border-top-color: #ABAAAA;
+    border-top-color: #3B4247;
     z-index: 1500;
     border-radius: 50%;
     -webkit-animation: spin 1.5s linear infinite;
@@ -100,7 +100,7 @@ body {
     right: 5px;
     bottom: 5px;
     border: 3px solid transparent;
-    border-top-color: #808080;
+    border-top-color: #576167;
     border-radius: 50%;
     -webkit-animation: spin 1.5s linear infinite;
 	animation: spin 1.5s linear infinite;
@@ -115,7 +115,7 @@ body {
     right: 15px;
     bottom: 15px;
     border: 3px solid transparent;
-    border-top-color: #565656;
+    border-top-color: #727A7F;
     border-radius: 50%;
     -webkit-animation: spin 1.5s linear infinite;
 	animation: spin 1.5s linear infinite;
@@ -151,7 +151,7 @@ body {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #252525;
+    background: #181B1D;
     z-index: 1000;
 }
 #loader-wrapper .loader-section.section-left {
