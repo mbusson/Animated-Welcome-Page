@@ -17,7 +17,7 @@ $(document).ready(function(){
 			fa.from('#enter', 3, {opacity:0, ease: Power1.easeIn});
 	};
 
-var footer = '<div id="footer"><div class="footnote"><p><br><br>...maybe is it time to go <a href="../index.php">home</a>?</p></div></div>'
+var footer = '<div id="footer"><div class="footnote"><p><br><br>...looking for your way <strong style="font-size:105%"><a href="../index.php">home</a></strong>?</p></div></div>'
 	function erase() {
 		$('#welcome').css({
 			visibility: 'hidden'
