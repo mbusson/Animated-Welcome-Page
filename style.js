@@ -6,7 +6,6 @@ $(document).ready(function(){
         $('body').addClass('loaded');
     }, 1);
 
-
 // --- ANIM ---
 
 	function startFinalAnimation(){
@@ -18,12 +17,24 @@ $(document).ready(function(){
 			fa.from('#enter', 3, {opacity:0, ease: Power1.easeIn});
 	};
 
+var footer = '<div id="footer"><div class="footnote"><p><br><br>...maybe is it time to go <a href="../index.php">home</a>?</p></div></div>'
 	function erase() {
 		$('#welcome').css({
 			visibility: 'hidden'
 		});
 		$('#animated .tagline').css({
 			visibility: 'hidden'
+		});
+		$('#slider').append(footer);
+		$('body').css({
+			overflow: 'auto',
+			height: 'auto'
+		});
+		$('#footer').css({
+			visibility: 'visible'
+		});
+		$('#animated').css({
+			height: '95vh'
 		});
 	}
 	startFinalAnimation();
